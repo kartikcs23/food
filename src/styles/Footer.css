@@ -1,0 +1,58 @@
+/* Global styles for making the footer stick at the bottom */
+html, body, #root {
+    height: 100%;
+    margin: 0;  /* Ensure there is no margin on body */
+  }
+  
+  /* Flexbox layout for the entire app */
+  .App {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  main {
+    flex: 1; /* Make sure the main content expands to fill available space */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #343a40;  /* Dark background color */
+    color: white;  /* White text */
+    padding: 20px;  /* Padding around the text */
+    text-align: center;  /* Center the text inside footer */
+    position: relative;  /* Make it behave normally in the flow of the document */
+    width: 100%;  /* Footer takes full width */
+    margin: 50px;
+    padding-top: 100px;
+  }
+  
+  footer .social-icons {
+    margin: 10px 0;
+  }
+  
+  footer .social-icons a {
+    color: white;
+    margin: 0 10px;  /* Space between icons */
+    font-size: 1.5rem;  /* Size of social media icons */
+    text-decoration: none;
+  }
+  
+  footer .social-icons a:hover {
+    opacity: 0.7;  /* Hover effect for icons */
+  }
+  
+  footer .footer-text {
+    font-size: 0.875rem;  /* Font size for text */
+    color: rgba(255, 255, 255, 0.6);  /* Light text color */
+  }
+  
+  footer .footer-text a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+  }
+  
+  footer .footer-text a:hover {
+    color: white;  /* Hover effect for links */
+  }
+  

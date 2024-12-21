@@ -1,0 +1,22 @@
+
+.container {
+    padding: 40px;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .alert-success {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    min-height: 150px;
+  }
+  

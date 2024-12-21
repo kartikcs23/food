@@ -1,0 +1,23 @@
+/* src/styles/MenuPage.css */
+.menu-item-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-item-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

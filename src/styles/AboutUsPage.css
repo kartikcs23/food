@@ -1,0 +1,142 @@
+/* src/styles/AboutUsPage.css */
+
+.about-us-page {
+    padding: 2rem;
+  }
+  
+  h1, h2, h3, h4 {
+    color: #333;
+  }
+  
+  .business-story, .mission, .timeline, .team {
+    margin-bottom: 2rem;
+  }
+  
+  .timeline ul {
+    list-style-type: none;
+  }
+  
+  .timeline li {
+    margin-bottom: 1rem;
+  }
+  
+  .team-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .team-card:hover {
+    transform: scale(1.05);
+  }
+  /* AboutUsPage.css */
+
+/* General Styling */
+.about-us-page {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px;
+  }
+  
+  /* Section Headers */
+  .about-us-page section h1,
+  .about-us-page section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Business Story Section */
+  .business-story {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mission Section */
+  .mission {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Timeline Section */
+  .timeline ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline li h4 {
+    color: #3498db;
+    margin-bottom: 5px;
+  }
+  
+  /* Team Section */
+  .team .team-card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .team .team-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .team .team-card .btn-primary {
+    background-color: #3498db;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .team .team-card .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Modal Styling */
+  .modal-header {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    color: #444;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #7f8c8d;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #95a5a6;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .about-us-page section {
+      text-align: center;
+    }
+  
+    .team .team-card {
+      margin: 0 auto 20px auto;
+    }
+  }
+  
